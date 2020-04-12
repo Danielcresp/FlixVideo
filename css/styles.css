@@ -284,6 +284,38 @@ body{
     text-decoration: underline;
 }
 
+/*Error 404*/
+.main404{
+    max-width:700px;
+    width: 965px;
+    padding: 30px 20px 50px; 
+    border: 1px solid #b3b3b3;               
+    border-radius: 4px;
+    box-shadow: 0 1px 10px #a7a7a7,
+     inset 0 1px 0 #fff; 
+    margin: 150px auto;
+
+}
+.main404 h1 {
+    margin: 0 10px; 
+    font-size: 50px;
+    text-align: center;
+}    
+.main404 h2 {
+    color: #D35010;
+    margin: 0 10px;
+    font-size: 40px;
+    text-align: center;
+}       
+.main404 h2 span {
+    color: #bbb;
+    font-size: 80px;
+} 
+.main404 p{
+    color: #ffff;
+    padding: 50px 30px; 
+} 
+/*End Error 404*/
 /* Responsive*/
 @media only screen and  (max-width: 600px){
     .login__container{
