@@ -8,15 +8,15 @@
 </head>
 <body>
     <header class="header-sesion">
-        <img class="header__img" src="./icons/mood50.png">
+        <img tabindex="0" class="header__img" src="./icons/mood50.png" alt="Mood">
     </header>
     <section class="login">
         <section class="login__container">
-                <h2>Inicio de sesión</h2>
+                <h2 tabindex="0" >Inicio de sesión</h2>
                 <form class="login__container--form">
-                    <input class="login__input" type="text" placeholder="Correo">
-                    <input class="login__input" type="password" placeholder="Contraseña">
-                    <button class="login__button">Iniciar Sesión</button>
+                    <input aria-label="Correo" class="login__input" type="text" placeholder="Correo">
+                    <input aria-label="Contraseña" class="login__input" type="password" placeholder="Contraseña">
+                    <button aria-label="Iniciar Sesión" class="login__button">Iniciar Sesión</button>
                     <div class="login__container--remember-me">
                         <label>
                             <input type="checkbox" name="" id="cbox" value="checkbox">Récuerdame

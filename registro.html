@@ -8,16 +8,16 @@
 </head>
 <body>
     <header class="header-sesion">
-        <img class="header__img" src="./icons/mood50.png">
+        <img tabindex="0" class="header__img" src="./icons/mood50.png" alt="Mood">
     </header>
     <section class="login">
         <section class="login__container">
-                <h2>Regístrate</h2>
+                <h2 tabindex="0" >Regístrate</h2>
                 <form class="login__container--form">
-                    <input class="login__input" type="text" placeholder="Nombre">
-                    <input class="login__input" type="email" placeholder="Correo">
-                    <input class="login__input" type="password" placeholder="Contraseña">
-                    <button class="login__button">Regístrate</button>
+                    <input aria-label="Nombre" class="login__input" type="text" placeholder="Nombre">
+                    <input aria-label="Correo" class="login__input" type="email" placeholder="Correo">
+                    <input aria-label="Contraseña" class="login__input" type="password" placeholder="Contraseña">
+                    <button aria-label="Regístrate" class="login__button">Regístrate</button>
                 </form>
                 <p class="login__container--sesion"><a href="sesion.html">Regístrate</a></p>
         </section>
