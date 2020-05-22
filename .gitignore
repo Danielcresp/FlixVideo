@@ -1,2 +1,4 @@
 mediaplayer/node_modules/*
 mediaplayer/assets/play.mp4
+mediaplayer/.cache
+mediaplayer/dist
